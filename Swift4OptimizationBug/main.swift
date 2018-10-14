@@ -18,7 +18,7 @@ func foo() -> UnsafeBufferPointer<UInt8> {
      (while compiling with -O or -Osize) will cause a garbage buffer pointer to be returned.
     */
     
-//    print("")
+    print("")
   }
   
   let array = [value] // Create an Array<UInt8> with one value, 6
